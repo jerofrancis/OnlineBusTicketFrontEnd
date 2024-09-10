@@ -1,0 +1,82 @@
+.BusDetailsCard_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    width: 50%;
+    font-family: "Poppins",sans-serif;
+    padding: 3vh;
+    border-radius: 2vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+.Bus_info_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.price_and_book_button_wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.price_and_book_button_wrapper div:nth-of-type(1),
+.price_and_book_button_wrapper div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.arivarrival_and_destination_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+p,
+h3{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: #30393E;
+}
+p{
+    color: #a5a5a5;
+}
+.A_D_Dates{
+    font-size: 2.2vh;
+    font-weight: 500;
+    color: #a5a5a5;
+}
+.Bus_info_wrapper,
+.price_and_book_button_wrapper{
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-between;;
+}
+.price_and_book_button_wrapper{
+    align-items: flex-end;
+}
+.arivarrival_and_destination_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4vh;
+}
+.select_seats_bth{
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 2.2vh;
+    height: fit-content;
+    border-radius: 5px;
+    padding: 1.2vh 3vh;
+    margin-top: 0.8vh;
+    height: fit-content;
+    cursor: pointer;
+    background-color: rgb(54, 20, 225);
+}

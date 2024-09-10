@@ -1,0 +1,117 @@
+.Ticket_Wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    font-family: "Poppins",sans-serif;
+    width: 45vh;
+}
+.source_and_destiny{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 8vh;
+    width: 100%;
+    padding: 2vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 2vh 2vh 1vh 1vh;
+    background-color: white;
+}
+.routes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.route_icon{
+    font-size: 3.8vh;
+    color: #848484;
+    transform: rotate(-90deg);
+}
+.booking_date{
+    font-size: 2vh;
+    color: #A1A1A1;
+}
+.date{
+    margin-left: 0.8vh;
+    font-size: 1.9vh;
+    color: #6B6B6B;
+}
+
+.actual_booking_details{
+    width: 100%;
+    height: fit-content;
+    margin-top: 0.1vh;
+    padding: 2vh;
+    border-radius: 1vh 1vh 2.5vh 2.5vh;
+    background-color: white;
+    box-shadow: 
+    rgba(60, 64, 67, 0.3) 0px -1px 2px 0px, /* top */
+    rgba(60, 64, 67, 0.15) 1px 0px 3px 1px, /* right */
+    rgba(60, 64, 67, 0.15) -1px 0px 3px 1px; /* left */
+}
+.bus_name{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin-right: auto;
+    color: #4A4A4A;
+}
+.totalPrice{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    color: black;
+}
+.seaparte_line{
+    width: 100%;
+    height: 1px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: #a1a1a1e0;
+}
+.deatils{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.key{
+    margin:0;
+    padding: 0;
+    color: #A1A1A1;
+}
+.value{
+    margin: 0;
+    padding: 0;
+    color: #4E4E4E;
+}
+.dotted_line {
+    position: relative;
+    width: 100%;
+    height: 1px; /* Adjust this to the desired thickness */
+    background: linear-gradient(to right, #4a4a4a 50%, rgba(255, 255, 255, 0) 0%);
+    background-size: 13px 3px; /* Adjust the first value to change the space between dashes */
+    background-color: transparent;
+}
+
+.QR_code_wrapper{
+    width: 100%;
+    padding: 2vh;
+    border-radius: 2vh;
+    height: 15vh;
+    margin-top: 0vh;
+    background-color: white;
+    box-shadow: 
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, /* bottom */
+    rgba(60, 64, 67, 0.15) 1px 0px 3px 1px, /* left */
+    rgba(60, 64, 67, 0.15) -1px 0px 3px 1px; /* right */
+}

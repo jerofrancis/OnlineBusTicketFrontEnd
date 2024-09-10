@@ -1,0 +1,99 @@
+.TravelsCompany_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  height: 90%;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2vh;
+  padding: 3vh;
+  margin-left: 3vh;
+  border-radius: 1vh;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: white;
+}
+.SeatLegend_h4 {
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+.SeatLegend,
+.SeatLegend_icons {
+  display: flex;
+  width: 100%;
+  margin-top: 3vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.SeatLegend {
+  width: 95%;
+  margin-top: -1vh;
+}
+.Available,
+.Booked,
+.Selected {
+  padding: 0;
+  margin: 0;
+  color: #4f27c7;
+  font-size: 2vh;
+}
+.TicketItem_icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #AAAAB6;
+  position: relative;
+  margin-right: 1vh;
+  margin-top: -1.5vh;
+  margin-bottom: 1.5vh;
+  font-family: "Poppins",sans-serif;
+  border-radius: 0.5vh;
+  background-color: white;
+  height: 6vh;
+  width: 3vh;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  width: 100%;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+}
+.Heading_h4 {
+  display: flex;
+  align-items: center;
+  color: #4a4a4a;
+  margin: 0;
+  font-size: 2.5vh;
+  padding: 0;
+  margin-bottom: 2vh;
+}
+.bus_icon {
+  font-size: 2.5vh;
+  margin-left: 1vh;
+}
+.Routeline {
+  display: flex;
+  flex-direction: row;
+}
+.upDownArrow_icon {
+  margin-left: auto;
+  margin-right: -2vh;
+  color: #5b36ed;
+  height: 3vh;
+  width: 3vh;
+  padding: 1vh;
+  transform: rotate(90deg);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: white;
+}

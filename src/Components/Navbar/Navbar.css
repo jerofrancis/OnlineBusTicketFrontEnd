@@ -1,0 +1,79 @@
+.Navbar_wrapper,
+.colored_Navbar_wrapper{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;  
+    height: 8vh;
+    position: absolute;
+    font-family: "Poppins",sans-serif;
+    background:transparent;
+}
+.colored_Navbar_wrapper{
+    background:rgb(54, 20, 225);
+}
+.Logo_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5vh;
+    cursor: pointer;
+}
+.Logo_text{
+    color: white;
+}
+.logo{
+    height:3.5vh ;
+    width: 3.5vh;
+    border-radius: 1vh;
+    padding: 0.8vh;
+    margin-left: 2vh;
+    background-color: white;
+    color: black;
+}
+.NavLinks_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10vh;
+    height: 100%;
+    margin-right: 10vh;
+}
+.NavLinks_wrapper a,
+.NavLinks_wrapper li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 2.3vh
+}
+.profile_icon{
+    font-size: 4vh;
+    margin-top: 1vh;
+    color: white;
+}
+
+.Navbar_below_wrapper{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Navbar_below{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height:13vh;
+    width: 80%;
+    padding-top: 8vh;
+   
+}

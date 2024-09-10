@@ -1,0 +1,44 @@
+.UserProfile_wrapper{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: flex-start;
+    padding-top: 4vh;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+.User_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 25%;
+}
+.profile_picture{
+    font-size: 15vh;
+}
+.email{
+    color: #4A4A4A;
+}
+.logout_btn{
+    padding: 1.8vh;
+    border-radius: 1vh;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 3vh;
+    background-color:#D84E56;
+    font-size: 2.6vh;
+    width: 80%;
+}
+.logout_btn:hover{
+    background-color:#d84e55ed;
+}
+.Tickets_wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: fit-content;
+    width: 55%;
+    gap: 4vh;
+}

@@ -1,0 +1,104 @@
+.Booking_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80vh;
+    width: 100%;
+}
+.Booking_layout{
+    display: flex;
+    gap:10vh;
+    margin-top: 1vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: fit-content;
+    width: 50%;
+}
+.separation_line{
+    height: 60vh;
+    width: 3px;
+    border-radius: 1vh;
+    margin-top: 15vh;
+    background-color: #DEDEDE;
+}
+.Ticket_container_upper{
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+}
+.Ticket_container_lower{
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+}
+.Seats_firstRow{
+    display: flex;
+    align-items: flex-end;
+}
+.seater_Seats_secondRow{
+    display: flex;
+    align-items: flex-end;
+}
+.TicketItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+    border: 2px solid #AAAAB6;
+    position: relative;
+    font-family: "Poppins",sans-serif;
+    border-radius: 0.5vh;
+    background-color: white;
+    height: 7vh;
+    width: 4vh;
+}
+.seat_design{
+    width: 60%;
+    height: 3px;
+    bottom: 6px;
+    border-radius: 1vh;
+    position: absolute;
+}
+.tagline{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    margin-bottom: 2vh;
+    color: #605F60;
+    padding: 1.5vh;
+    font-family: "Poppins",sans-serif;
+    border-radius: 0.5vh;
+    font-size: 2.2vh;
+    background-color: #DEDEDE;
+}
+
+.Seater_Ticket_container{
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: row;
+}
+
+.Seater_Seats_firstRow{
+    display: flex;
+    width: fit-content;
+    flex-direction:row;
+    margin-right: 10vh;
+}
+.Seater_Seats_seconRow{
+    display: flex;
+    flex-direction: row;
+}
+.SeaterTicketItem{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 3vh;
+    margin-top: -1.6vh;
+}

@@ -1,0 +1,17 @@
+.Gender_selection{
+    padding: 1.2vh;
+    width: 30%;
+    padding-left: 3vh;
+    font-weight: 600;
+    color: #001524;
+    cursor: pointer;
+    border: 2px solid #979797;
+    outline: none;
+    border-radius: 4vh;
+}
+.pwdNotMatch{
+    margin: 0;
+    padding: 0;
+    margin-top: -3vh;
+    color: red;
+}
